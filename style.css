@@ -72,3 +72,11 @@ div.projects > div > div.info > h3 {
 div.projects > div > .links {
     margin-top: 0px;
 }
+
+div.projects > div {
+    margin-bottom: 2em;
+}
+
+p.description {
+    margin-bottom: 0px
+}
