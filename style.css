@@ -1,0 +1,77 @@
+/* TODO: better font for h3; */
+
+body {
+    background-color: #ddd;
+    font-family: 'Open Sans', sans-serif;
+    color: #555;
+}
+
+/* TODO: media query */
+div.container {
+    margin: auto;
+    max-width: 1024px;
+    background-color: #bbb;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+div#header {
+    overflow: hidden;
+}
+
+img {
+    border: 1px solid #555;
+    border-radius: 15px;
+}
+
+.col1, .col2, .col3 {
+    float: left;
+}
+
+/* TODO: responsive */
+.col1 {
+    max-width: 200px;
+}
+
+.col2 {
+    width: 550px;
+    margin-left: 1em;
+}
+
+.col3 {
+    list-style: none;
+}
+
+.col3 li {
+    padding-left: 0px;
+}
+
+div.projects {
+    border-top: 1px solid #888;
+    margin-top: 1em;
+}
+
+div.projects > h3 {
+    text-align: center;
+}
+
+div.projects > div {
+    overflow: hidden;
+    margin: 1em auto;
+
+    background-color: #bbb;
+}
+
+div.projects > div > div.info > h3 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+div.projects > div > div.info > p.subheading {
+    margin-top: 0px;
+    font-size: 0.9em;
+}
+
+div.projects > div > .links {
+    margin-top: 0px;
+}
