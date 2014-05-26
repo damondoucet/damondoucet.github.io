@@ -1,9 +1,11 @@
-/* TODO: better font for h3; */
-
 body {
     background-color: #ddd;
     font-family: 'Open Sans', sans-serif;
     color: #555;
+}
+
+h2, h3 {
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* TODO: media query */
