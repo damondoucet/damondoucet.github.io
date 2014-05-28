@@ -32,7 +32,7 @@ img {
 
 /* TODO: responsive */
 .col1 {
-    max-width: 200px;
+    width: 200px;
 }
 
 .col2 {
@@ -46,6 +46,11 @@ img {
 
 .col3 li {
     padding-left: 0px;
+}
+
+p.subheading {
+    margin-top: 0px;
+    font-style: italic;
 }
 
 div.projects {
