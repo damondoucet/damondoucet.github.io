@@ -8,6 +8,10 @@ h2, h3 {
     font-family: sans-serif;
 }
 
+h2 {
+    margin-bottom: 0px;
+}
+
 /* TODO: media query */
 div.container {
     margin: auto;
@@ -50,6 +54,7 @@ img {
 
 p.subheading {
     margin-top: 0px;
+    margin-bottom: 0px;
     font-style: italic;
 }
 
@@ -84,4 +89,8 @@ div.projects > div {
 
 p.description {
     margin-bottom: 0px
+}
+
+p.subheading + p.description {
+    margin-top: 1em;
 }
