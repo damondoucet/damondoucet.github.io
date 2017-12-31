@@ -60,6 +60,35 @@
                 <h3>Here&apos;s some cool stuff I&apos;ve made</h3>
 
                 <div>
+                    <a href="img/csi.jpg"><img class="col1" src="img/csi.jpg" alt="CSI Screenshot"></a>
+                    <div class="info col2">
+                        <h3>Compiler Instrumentation Framework</h3>
+                        <p class="subheading">
+                            Fall 2015, Spring 2016 &middot; C++ &middot;
+                            <a href="paper.pdf">PDF</a> &middot;
+                            <a href="https://dl.acm.org/citation.cfm?id=3154502">ACM Digital Library</a>
+
+                            &middot; <a href="https://github.com/CSI-LLVM">Github</a>
+                        </p>
+
+                        <p class="description">
+                            Writing race detectors is hard. Even using a framework such as Cilk, which
+                            drastically simplifies <a
+                            href="http://supertech.csail.mit.edu/papers/spbags.pdf">the algorithm for
+                            computing races</a>, a significant amount of engineering still needs to be done
+                            as either binary or compiler instrumentation to capture memory reads and writes
+                            of tested programs. Other tools such as call-graph generators and code-coverage
+                            analyzers require similarly Herculean efforts. My senior thesis was to build a
+                            highly-performant LLVM/clang framework so that tool-writers can focus solely on
+                            writing their tool, and not compiler internals. It won the <a
+                            href="https://www.eecs.mit.edu/news-events/announcements/student-faculty-and-staff-award-winners-honored-eecs-celebrates">Outstanding
+                            Research Project Award</a> and was published in <a
+                            href="https://www.sigmetrics.org/">SIGMETRICS</a>.
+                        </p>
+                    </div>
+                </div>
+
+                <div>
                     <a href="img/polyshooter.png"><img class="col1" src="img/thumb/polyshooter.png" alt="polyshooter Screenshot"></a>
 
                     <div class="info col2">
