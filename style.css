@@ -24,7 +24,6 @@ div.container {
     width: 820px;
     background-color: #bbb;
     padding: 15px;
-    border-radius: 15px;
 }
 
 div#header {
@@ -40,7 +39,6 @@ p.header-links {
 
 img {
     border: 1px solid #555;
-    border-radius: 15px;
 }
 
 .col1, .col2 {
@@ -76,8 +74,6 @@ div.projects > h3 {
 div.projects > div {
     overflow: hidden;
     margin: 1em auto;
-
-    background-color: #bbb;
 }
 
 div.projects > div:last-child {
