@@ -2,6 +2,8 @@ body {
     background-color: #ddd;
     font-family: 'Open Sans', sans-serif;
     color: #555;
+    font-size: 16px;
+    line-height: 1.5em;
 }
 
 h2, h3 {
@@ -30,13 +32,6 @@ div#header {
     overflow: hidden;
 }
 
-p.header-links {
-    font-size: 0.95em;
-    line-height: 1em;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
 img {
     border: 1px solid #555;
 }
@@ -59,7 +54,6 @@ p.subheading {
     margin-top: 0px;
     margin-bottom: 0px;
     font-style: italic;
-    line-height: 1.35em;
 }
 
 div.projects {
